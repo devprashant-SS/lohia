@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "268076596563",
+    "project_id": "log-in-a4f36",
+    "storage_bucket": "log-in-a4f36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268076596563:android:66d2863b0fd38ed672f5a6",
+        "android_client_info": {
+          "package_name": "com.example.lohia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268076596563-a7rbb4nmj2l4re4qrds3a8dn3gf5vp0j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lohia",
+            "certificate_hash": "226ceb81e7367744da9f686d8482e18e45d91859"
+          }
+        },
+        {
+          "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaiCEPG5yknSmc9OtBskr5vjcm-ddnL7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268076596563:android:c94642f667e21ad172f5a6",
+        "android_client_info": {
+          "package_name": "seeksolution.in.spihisabapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaiCEPG5yknSmc9OtBskr5vjcm-ddnL7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268076596563:android:e14faed3afc2bff072f5a6",
+        "android_client_info": {
+          "package_name": "seeksolution.in.wclogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaiCEPG5yknSmc9OtBskr5vjcm-ddnL7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268076596563-tag22hmgj0js0cb7gr7i54o46s47dif0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

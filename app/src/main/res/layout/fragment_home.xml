@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/customButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/shapeinsurance"
+            android:elevation="@dimen/_16sdp"
+            android:text="@string/insurance"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/redbutton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/shapepolicy"
+            android:elevation="@dimen/_16sdp"
+            android:text="@string/investment"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_15sdp"
+            tools:ignore="VisualLintBounds" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="140dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/homeinsurance"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/group_6"
+                android:text="@null"
+                android:elevation="@dimen/_16sdp"
+                tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="140dp">
+            <Button
+                android:id="@+id/health"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@null"
+                android:elevation="@dimen/_16sdp"
+                android:layout_gravity="end|center"
+                android:background="@drawable/group_5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:weightSum="2">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="140dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/car"
+            android:text="@null"
+            android:elevation="@dimen/_16sdp"
+            android:background="@drawable/group_7"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="140dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/term"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@null"
+            android:elevation="@dimen/_16sdp"
+            android:background="@drawable/group_8"
+            android:layout_gravity="start|center"
+
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/slider_viewpage" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </FrameLayout>

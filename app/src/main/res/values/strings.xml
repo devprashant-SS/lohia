@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Lohia</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="insurance">Insurance</string>
+    <string name="policy">Policy</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="mobile_no">MOBILE NO.</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="please_enter_the_otp_sent_to_you">Please Enter the OTP sent to you</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="welcome">WELCOME</string>
+    <string name="login_via_email_password">Login via Email/Password</string>
+    <string name="login_via_mobile">Login via Mobile</string>
+    <string name="Username">Username</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_lohias_investment">Welcome to Lohias Investment</string>
+    <string name="log_in">Log IN</string>
+    <string name="didn_t_receive_the_otp">Did\'t Receive the Otp</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register" />
+    <string name="notification">Notification</string>
+    <string name="investment">Investment</string>
+    <string-array name="policy">
+        <item>None</item>
+        <item>Life</item>
+        <item>health</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>
